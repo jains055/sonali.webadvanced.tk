@@ -1,0 +1,105 @@
+.rect1{
+    border: 7px solid blue;
+    width: 100px;
+    height: 200px; 
+    position:absolute; 
+    top:50px;
+    left:800px;
+}
+ 
+ .rect2{
+    border: 7px solid blue;
+    width: 300px;
+    height: 180px; 
+    position:absolute; 
+    top:160px;
+    left:410px;
+}
+
+.rect3{
+    border: 7px solid blue;
+    width: 200px;
+    height: 230px; 
+    position:absolute; 
+    top:400px;
+    left:800px;
+}
+
+.rect4{
+    border: 7px solid blue;
+    width: 100px;
+    height: 200px; 
+    position:absolute; 
+    top:130px;
+    left:990px;
+}
+
+.rect5{
+    border: 7px solid blue;
+    width: 250px;
+    height: 120px; 
+    position:absolute; 
+    top:430px;
+    left:460px;
+}
+
+.rect6{
+    border: 7px solid blue;
+    width: 180px;
+    height: 260px; 
+    position:absolute; 
+    top:400px;
+    left:150px;
+}
+
+.rect7{
+    border: 7px solid blue;
+    width: 120px;
+    height: 220px; 
+    position:absolute; 
+    top:80px;
+    left:210px;
+}
+ 
+ .rect8{
+    border: 7px solid blue;
+    width: 180px;
+    height: 160px; 
+    position:absolute; 
+    top:400px;
+    left:1090px;
+}
+
+body{
+  background: white;
+  padding-top: 10px;
+} 
+
+p{
+  color: red; 
+  font-family: "helvetica";
+  font-size: 20px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 4s steps(60, end); 
+}
+
+p:nth-child(2){
+  animation: type2 8s steps(60, end);
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
