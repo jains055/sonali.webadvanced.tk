@@ -31,3 +31,16 @@
 	top:550px;
 	left:550px;
 }
+
+
+.circle3 {
+	width: 70px;
+	height: 70px;
+	background: red;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	border-radius: 70px;
+	position: absolute;
+	top:200px;
+	left:450px;
+}
