@@ -1,19 +1,10 @@
-
- 
-         .hidden
-         {
-            display: none;
-         }
- 
-         .cube
-         {
-
-  display: block;
-  background: black;
-  border-radius: 50%;
-  height: 300px;
-  width: 300px;
-
-         }
- 
-   
+.shape {
+    position:absolute;
+   top:50%;
+   left:50%;
+   margin-top:-60px;
+   margin-left:-50px;
+width: 300px;
+	height: 4px;
+	background: red;
+}
