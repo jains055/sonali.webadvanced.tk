@@ -72,3 +72,21 @@
 
 	left:300px;
 }
+
+.eight{
+    width: 600px;
+	height: 10px;
+	background:red;
+	top:320px;
+position: absolute;
+	left:300px;
+}
+
+.nine{
+    width: 600px;
+	height: 10px;
+	background:blue;
+	top:500px;
+position: absolute;
+	left:300px;
+}
