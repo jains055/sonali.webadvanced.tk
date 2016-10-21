@@ -1,92 +1,64 @@
 
-         .cube
-         {
-             width: 200px;
-    height: 200px;
-
-    color: lime;
-    margin: 100px auto;
-    border-radius: 100%;
-    box-shadow: inset 0 0 80px lime;
-    }
- 
 .one{
-    width: 600px;
+    width: 100%;
 	height: 10px;
 	background: pink;
-	top:500px;
-	left:00px;
-	
+margin: auto;
 }
 
 .two{
-    width: 600px;
+    width: 100%;
 	height: 10px;
 	background: black;
-	top:600px;
-
-	left:100px;
+margin: auto;
 }
 
 .three{
-    width: 600px;
+    width: 100%;
 	height: 10px;
 	background: pink;
-	top:70px;
-
-	left:500px;
+margin: auto;
 }
 
 .four{
-    width: 600px;
+    width: 100%;
 	height: 10px;
 	background: black;
-	top:400px;
-
-	left:400px;
+margin: auto;
 }
 
-.five{
-    width: 600px;
-	height: 10px;
-	background:pink;
-	top:320px;
 
-	left:300px;
+.five{
+    width: 100%;
+	height: 10px;
+	background: pink;
+margin: auto;
 }
 
 .six{
-    width: 600px;
+    width: 100%;
 	height: 10px;
 	background: black;
-	top:320px;
-
-	left:300px;
+margin: auto;
 }
 
 .seven{
-    width: 600px;
+    width: 100%;
 	height: 10px;
-	background:pink;
-	top:320px;
-
-	left:300px;
+	background: pink;
+margin: auto;
 }
 
 .eight{
-    width: 600px;
+    width: 100%;
 	height: 10px;
-	background:red;
-	top:120px;
-position: absolute;
-	left:10px;
+	background: black;
+margin: auto;
 }
 
 .nine{
-    width: 600px;
+    width: 100%;
 	height: 10px;
-	background:blue;
-	top:20px;
-position: absolute;
-	left:30px;
+	background: pink;
+margin: auto;
 }
