@@ -10,3 +10,26 @@
     box-shadow: inset 0 0 80px lime;
     }
  
+.one{
+    width: 600px;
+	height: 10px;
+	background: pink;
+	top:500px;
+	left:200px;
+}
+
+.two{
+    width: 600px;
+	height: 10px;
+	background: black;
+	top:800px;
+	left:100px;
+}
+
+.three{
+    width: 600px;
+	height: 10px;
+	background: blue;
+	top:800px;
+	left:100px;
+}
