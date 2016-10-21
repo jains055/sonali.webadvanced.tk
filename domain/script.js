@@ -7,6 +7,5 @@
                        'rotateZ(' + event.alpha + 'deg)';
 
             });
-         }
- 
+        
   
