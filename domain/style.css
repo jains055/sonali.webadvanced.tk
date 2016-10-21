@@ -14,9 +14,9 @@
     width: 600px;
 	height: 10px;
 	background: pink;
-	position: absolute;
 	top:500px;
-	left:200px;
+	left:00px;
+	
 }
 
 .two{
@@ -24,33 +24,51 @@
 	height: 10px;
 	background: black;
 	top:600px;
-	position: absolute;
+
 	left:100px;
 }
 
 .three{
     width: 600px;
 	height: 10px;
-	background: blue;
+	background: pink;
 	top:70px;
-	position: absolute;
+
 	left:500px;
 }
 
 .four{
     width: 600px;
 	height: 10px;
-	background: yellow;
+	background: black;
 	top:400px;
-	position: absolute;
+
 	left:400px;
 }
 
 .five{
     width: 600px;
 	height: 10px;
-	background: orange;
+	background:pink;
 	top:320px;
-	position: absolute;
+
+	left:300px;
+}
+
+.six{
+    width: 600px;
+	height: 10px;
+	background: black;
+	top:320px;
+
+	left:300px;
+}
+
+.seven{
+    width: 600px;
+	height: 10px;
+	background:pink;
+	top:320px;
+
 	left:300px;
 }
