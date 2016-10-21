@@ -1,8 +1,5 @@
    if (!window.DeviceOrientationEvent) {
-            document.getElementById('do-unsupported').classList.remove('hidden');
-         } else {
-            document.getElementById('do-info').classList.remove('hidden');
- 
+       
             window.addEventListener('deviceorientation', function(event) {
                document.getElementById('cube').style.webkitTransform =
                document.getElementById('cube').style.transform =
@@ -13,16 +10,12 @@
                document.getElementById('beta').innerHTML = Math.round(event.beta);
                document.getElementById('gamma').innerHTML = Math.round(event.gamma);
                document.getElementById('alpha').innerHTML = Math.round(event.alpha);
-               document.getElementById('is-absolute').innerHTML = event.absolute ? "true" : "false";
             });
          }
  
          if (!window.DeviceMotionEvent) {
-            document.getElementById('dm-unsupported').classList.remove('hidden');
-         } else {
-            document.getElementById('dm-info').classList.remove('hidden');
- 
-            window.addEventListener('devicemotion', function(event) {
+          
+          window.addEventListener('devicemotion', function(event) {
                document.getElementById('acceleration-x').innerHTML = Math.round(event.acceleration.x);
                document.getElementById('acceleration-y').innerHTML = Math.round(event.acceleration.y);
                document.getElementById('acceleration-z').innerHTML = Math.round(event.acceleration.z);
@@ -42,10 +35,4 @@
             });
          }
  
-         if (!('oncompassneedscalibration' in window)) {
-            document.getElementById('cnc-unsupported').classList.remove('hidden');
-         } else {
-            window.addEventListener('compassneedscalibration', function(event) {
-               alert('Compass needs calibrating! Wave your device in a figure-eight motion');
-            });
-         }
+   
