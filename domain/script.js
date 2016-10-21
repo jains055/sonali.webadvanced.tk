@@ -1,8 +1,4 @@
-   if (!window.DeviceOrientationEvent) {
-            document.getElementById('do-unsupported').classList.remove('hidden');
-         } else {
-            document.getElementById('do-info').classList.remove('hidden');
- 
+
             window.addEventListener('deviceorientation', function(event) {
                document.getElementById('cube').style.webkitTransform =
                document.getElementById('cube').style.transform =
@@ -11,6 +7,6 @@
                        'rotateZ(' + event.alpha + 'deg)';
 
             });
-         }
+        
  
   
