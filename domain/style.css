@@ -77,16 +77,16 @@
     width: 600px;
 	height: 10px;
 	background:red;
-	top:320px;
+	top:120px;
 position: absolute;
-	left:300px;
+	left:10px;
 }
 
 .nine{
     width: 600px;
 	height: 10px;
 	background:blue;
-	top:500px;
+	top:20px;
 position: absolute;
-	left:300px;
+	left:30px;
 }
