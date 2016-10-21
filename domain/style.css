@@ -1,16 +1,11 @@
 
-
- 
-    .shape
+         .cube
          {
-
-  top: 100px;
- left: 200px;
-width: 300px;
-  height: 10px;
-
- background-color: red;
-
-         }
+            width: 150px;
+             height: 150px;
+            position: relative;
+             margin: 30px auto;
+           background-color: blue
+    }
  
    
