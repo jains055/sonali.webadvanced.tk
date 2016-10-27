@@ -1,61 +1,17 @@
+ html,body{
+    overflow:hidden
+    }
 
-    
-#cube{
-    transform-origin: center; 
-}
-    
 .one{
     width: 2048px;
 	height: 10px;
 	background: pink;
+	transform-origin: center;
 }
 
 .two{
     width: 2048px;
 	height: 10px;
 	background: black;
+	transform-origin: center;
 }
-
-.three{
-    width: 2048px;
-	height: 10px;
-	background: pink;
-}
-
-.four{
-    width: 2048px;
-	height: 10px;
-	background: black;
-}
-
-
-.five{
-    width: 2048px;
-	height: 10px;
-	background: pink;
-}
-
-.six{
-    width: 2048px;
-	height: 10px;
-	background: black;
-}
-
-.seven{
-    width: 2048px;
-	height: 10px;
-	background: pink;
-}
-
-.eight{
-    width: 2048px;
-	height: 10px;
-	background: black;
-}
-
-.nine{
-    width: 2048px;
-	height: 10px;
-	background: pink;
-}
-
