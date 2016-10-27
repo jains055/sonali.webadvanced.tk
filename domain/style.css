@@ -6,12 +6,10 @@
     width: 2048px;
 	height: 10px;
 	background: pink;
-	transform-origin: center;
 }
 
 .two{
     width: 2048px;
 	height: 10px;
 	background: black;
-	transform-origin: center;
 }
