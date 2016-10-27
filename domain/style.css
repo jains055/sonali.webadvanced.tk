@@ -1,4 +1,11 @@
-
+ html,body{
+    overflow:hidden
+    }
+    
+#cube{
+    transform-origin: center; 
+}
+    
 .one{
     width: 2048px;
 	height: 10px;
@@ -53,3 +60,4 @@
 	height: 10px;
 	background: pink;
 }
+
