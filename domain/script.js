@@ -1,6 +1,16 @@
 
               window.addEventListener('deviceorientation', function(event) {
                   
+                  function getViewport() {
+
+                     var viewPortWidth;
+                    var viewPortHeight;
+                     $(".one").css("width", viewPortHeight)
+                     $(".two").css("width", viewPortHeight)
+
+                    }
+                  
+                  
                 for (var i = 0; i < 7; i++) {
                  $(".cube").append("<div class='one'></div>");
                      $(".cube").append("<div class='two'></div>");
@@ -90,7 +100,6 @@ if (window.DeviceOrientationEvent) {
   });
   
 }
-
 
 /**
  * Converts an HSL color value to RGB. Conversion formula
