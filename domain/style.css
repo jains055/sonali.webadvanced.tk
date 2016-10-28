@@ -11,11 +11,16 @@ body {overflow:hidden;
     width: 2048px;
 	height: 10px;
 	background: pink;
+
 }
 
 .two{
     width: 2048px;
 	height: 10px;
 	background: black;
+	
 }
 
+#cube{
+	transform-origin: center;
+}
