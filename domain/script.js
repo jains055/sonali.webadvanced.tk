@@ -5,6 +5,8 @@
 
                      var viewPortWidth;
                     var viewPortHeight;
+                    return [viewPortWidth, viewPortHeight];
+                    
                      $(".one").css("width", viewPortHeight)
                      $(".two").css("width", viewPortHeight)
 
