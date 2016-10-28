@@ -1,10 +1,10 @@
 
               window.addEventListener('deviceorientation', function(event) {
                   
-                  for (var i = 0; i < 10; i++) {
-                     $(".cube").append("<div class='one'></div>");
-                     $(".cube").append("<div class='two'></div>");
-                    }
+               //   for (var i = 0; i < 10; i++) {
+                 //    $(".cube").append("<div class='one'></div>");
+                   //  $(".cube").append("<div class='two'></div>");
+                    //}
                   
                   
                  document.getElementById('cube').style.webkitTransform =
