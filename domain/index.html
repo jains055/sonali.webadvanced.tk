@@ -13,24 +13,27 @@
             <div class="two"></div>
          </div>
          
-           <table>
-    <tr>
-      <td>Event Supported</td>
-      <td id="dmEvent"></td>
-    </tr>
-    <tr>
-      <td>acceleration</td>
-      <td id="moAccel"></td>
-    </tr>
-    <tr>
-      <td>accelerationIncludingGravity</td>
-      <td id="moAccelGrav"></td>
-    </tr>
-    <tr>
-      <td>interval</td>
-      <td id="moInterval"></td>
-    </tr>
-  </table>
+         <div id="dm-info" class="hidden">
+            <p>
+               Acceleration:
+               (<span id="acceleration-x" class="value"></span>,
+               <span id="acceleration-y" class="value"></span>,
+               <span id="acceleration-z" class="value"></span>)
+               m/s<sup>2</sup>
+            </p>
+            <p>
+               Acceleration including gravity:
+               (<span id="acceleration-including-gravity-x" class="value"></span>,
+               <span id="acceleration-including-gravity-y" class="value"></span>,
+               <span id="acceleration-including-gravity-z" class="value"></span>)
+               m/s<sup>2</sup>
+            </p>
+            <p>
+               Interval: <span id="interval" class="value">0</span> milliseconds
+            </p>
+         </div>
+      </div>
+
    
     <script src="jquery.js"></script>
     <script src="script.js"></script>
