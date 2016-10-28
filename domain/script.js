@@ -83,16 +83,14 @@ if (window.DeviceOrientationEvent) {
        var rgbStringInverted = "rgb(" + (255 - red) + ", " + (255 - green) + ", " + (255 - blue) + ")";
        var hexString = "#" + rgbToHex(red, green, blue);
 
-       document.getElementById("color-preview").style.backgroundColor = hslString;
-       document.getElementById("headline").style.color = rgbStringInverted;
-       document.getElementById("headline").innerHTML = hslString + "<br />" + hexString;
+       //document.getElementById("color-preview").style.backgroundColor = hslString;
+       
+       $(".one").css("background-color", hslString);
        
   });
   
 }
 
-
-//Utility functions
 
 /**
  * Converts an HSL color value to RGB. Conversion formula
