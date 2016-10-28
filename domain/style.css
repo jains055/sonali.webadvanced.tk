@@ -24,3 +24,21 @@ body {overflow:hidden;
 #cube{
 	transform-origin: center;
 }
+
+#color-preview {
+    position: absolute;
+    width: 340px;
+  height: 340px;
+  left:170px;
+  top:400px;
+}
+
+
+h1 {
+  position: absolute;
+  width: 100%;
+  top: 42%;
+  left: 0px;
+  transform: translate(0, -50%); 
+  text-align: center; 
+}
