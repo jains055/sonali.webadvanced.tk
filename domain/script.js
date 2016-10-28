@@ -1,7 +1,7 @@
 
               window.addEventListener('deviceorientation', function(event) {
                   
-                  for (var i = 0; i < 100; i++) {
+                  for (var i = 0; i < 30; i++) {
                      $(".cube").append("<div class='one'></div>");
                      $(".cube").append("<div class='two'></div>");
                     }
