@@ -15,7 +15,6 @@
                        
                       // $(".one").css("background-color","rgb(" + event.beta + "," + event.gamma + "," + event.alpha + ")");
                        
-function deviceMotionHandler(eventData) {
   var info, xyz = "[X, Y, Z]";
 
   // Grab the acceleration from the results
@@ -41,8 +40,7 @@ function deviceMotionHandler(eventData) {
 
   // // Grab the refresh interval from the results
   info = eventData.interval;
-  document.getElementById("moInterval").innerHTML = info;       
-}
+  document.getElementById("moInterval").innerHTML = info; 
                             
                             
  
