@@ -1,10 +1,10 @@
 
               window.addEventListener('deviceorientation', function(event) {
                   
-               //   for (var i = 0; i < 10; i++) {
-                 //    $(".cube").append("<div class='one'></div>");
-                   //  $(".cube").append("<div class='two'></div>");
-                    //}
+                for (var i = 0; i < 10; i++) {
+                     $(".cube").append("<div class='one'></div>");
+                     $(".cube").append("<div class='two'></div>");
+                    }
                   
                   
                  document.getElementById('cube').style.webkitTransform =
@@ -19,7 +19,6 @@
               });
               
             
- 
             window.addEventListener('devicemotion', function(event) {
                document.getElementById('acceleration-x').innerHTML = Math.round(event.acceleration.x);
                document.getElementById('acceleration-y').innerHTML = Math.round(event.acceleration.y);
@@ -33,5 +32,8 @@
                        Math.round(event.accelerationIncludingGravity.z);
  
                document.getElementById('interval').innerHTML = event.interval;
+               
+                // $(".two").css("background-color","rgb(" + accelerationIncludingGravity.x + "," + event.accelerationIncludingGravity.y + "," + accelerationIncludingGravity.z + ")");
+               
             });
      
