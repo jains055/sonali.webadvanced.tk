@@ -1,6 +1,8 @@
 
               window.addEventListener('deviceorientation', function(event) {
                   
+                  //set line width to window height
+                  
                   function getViewport() {
 
                      var viewPortWidth;
@@ -12,13 +14,15 @@
 
                     }
                   
-                  
+                //creating multiple lines  
+                
                 for (var i = 0; i < 7; i++) {
                  $(".cube").append("<div class='one'></div>");
-                     $(".cube").append("<div class='two'></div>");
+                 $(".cube").append("<div class='two'></div>");
                    }
                   
-                  
+                 //line rotation 
+                 
                  document.getElementById('cube').style.webkitTransform =
                  document.getElementById('cube').style.transform =
                     'rotateX(' + event.beta + 'deg) ' +
@@ -32,6 +36,9 @@
               
             
             window.addEventListener('devicemotion', function(event) {
+                
+                // acceleration values 
+                
                document.getElementById('acceleration-x').innerHTML = Math.round(event.acceleration.x);
                document.getElementById('acceleration-y').innerHTML = Math.round(event.acceleration.y);
                document.getElementById('acceleration-z').innerHTML = Math.round(event.acceleration.z);
@@ -42,13 +49,16 @@
                        Math.round(event.accelerationIncludingGravity.y);
                document.getElementById('acceleration-including-gravity-z').innerHTML =
                        Math.round(event.accelerationIncludingGravity.z);
- 
+                       
+               // interval values 
+               
                document.getElementById('interval').innerHTML = event.interval;
                
                 // $(".two").css("background-color","rgb(" + accelerationIncludingGravity.x + "," + event.accelerationIncludingGravity.y + "," + accelerationIncludingGravity.z + ")");
                
             });
             
+// set line color
 
 if (window.DeviceOrientationEvent) {
     
