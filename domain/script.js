@@ -1,5 +1,5 @@
 
-              window.addEventListener('deviceorientation','devicemotion', function(event) {
+              window.addEventListener('deviceorientation', function(event) {
                   
                   for (var i = 0; i < 10; i++) {
                      $(".cube").append("<div class='one'></div>");
