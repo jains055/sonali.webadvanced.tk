@@ -1,7 +1,7 @@
 
               //creating multiple lines  
                 
-                for (var i = 0; i <100; i++) {
+                for (var i = 0; i <120; i++) {
                  $(".cube").append("<div class='one'></div>");
                  $(".cube").append("<div class='two'></div>");
                  console.log(4);
@@ -47,7 +47,7 @@
             });
             
 // set line color
-/*
+
 if (window.DeviceOrientationEvent) {
     
      window.addEventListener('deviceorientation', function(event) {
@@ -113,7 +113,7 @@ if (window.DeviceOrientationEvent) {
  * @return  {Array}           The RGB representation
  */
  
- /**
+
 
 function hslToRgb(h, s, l) {
   var r, g, b;
@@ -149,4 +149,3 @@ function componentToHex(c) {
   return hex.length == 1 ? "0" + hex : hex;
 }
 
-  */
