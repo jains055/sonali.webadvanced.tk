@@ -8,20 +8,22 @@ html, body {
 }
 
 .one{
-    width: 10000%;
+    width: 100000%;
 	height: 10px;
 	background: pink;
 
 }
 
 .two{
-    width: 10000%;
+    width: 100000%;
 	height: 10px;
 	background: white;
 	
 }
 
-
+#cube{
+	transform-origin: center;
+}
 
 #color-preview {
     position: absolute;
