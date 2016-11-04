@@ -2,23 +2,14 @@
               window.addEventListener('deviceorientation', function(event) {
                   
                   //set line width to window height
-                  
-                  function getViewport() {
-
-                     var viewPortWidth;
-                    var viewPortHeight;
-                    return [viewPortWidth, viewPortHeight];
                     
-                     $(".one").css("width", viewPortHeight)
-                     $(".two").css("width", viewPortHeight)
-
-                    }
                   
                 //creating multiple lines  
                 
-                for (var i = 0; i < 7; i++) {
+                for (var i = 0; i < 2; i++) {
                  $(".cube").append("<div class='one'></div>");
                  $(".cube").append("<div class='two'></div>");
+                 console.log(4);
                    }
                   
                  //line rotation 
@@ -59,7 +50,7 @@
             });
             
 // set line color
-
+/*
 if (window.DeviceOrientationEvent) {
     
      window.addEventListener('deviceorientation', function(event) {
@@ -124,6 +115,9 @@ if (window.DeviceOrientationEvent) {
  * @param   {number}  l       The lightness
  * @return  {Array}           The RGB representation
  */
+ 
+ /**
+
 function hslToRgb(h, s, l) {
   var r, g, b;
 
@@ -157,3 +151,5 @@ function componentToHex(c) {
   var hex = c.toString(16);
   return hex.length == 1 ? "0" + hex : hex;
 }
+
+  */

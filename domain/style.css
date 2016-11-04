@@ -1,5 +1,5 @@
-body {overflow:hidden;
-	
+html, body {
+	overflow:hidden;
 }
 
 * {
@@ -8,14 +8,14 @@ body {overflow:hidden;
 }
 
 .one{
-    width: 1600px;
+    width: 10000%;
 	height: 10px;
 	background: pink;
 
 }
 
 .two{
-    width: 1600px;
+    width: 10000%;
 	height: 10px;
 	background: white;
 	
