@@ -1,17 +1,14 @@
 
-              window.addEventListener('deviceorientation', function(event) {
-                  
-                  //set line width to window height
-                    
-                  
-                //creating multiple lines  
+              //creating multiple lines  
                 
-                for (var i = 0; i < 2; i++) {
+                for (var i = 0; i < 20; i++) {
                  $(".cube").append("<div class='one'></div>");
                  $(".cube").append("<div class='two'></div>");
                  console.log(4);
                    }
-                  
+              
+              window.addEventListener('deviceorientation', function(event) {
+                                
                  //line rotation 
                  
                  document.getElementById('cube').style.webkitTransform =
