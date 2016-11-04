@@ -47,7 +47,8 @@
                
                var acceleration = Math.round(event.acceleration.x);
                 console.log(acceleration);
-                var valh = acceleration*10
+            
+                var valh = Math.abs(acceleration)*20
                 console.log(valh);
                     $(".two").css("height", ( valh + "px"));
                
