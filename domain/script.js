@@ -47,10 +47,7 @@
                
                var acceleration = Math.round(event.acceleration.x);
                 console.log(acceleration);
-               var hval = acceleration/2
-               console.log(hval);
-                    
-                    $(".one").css("height", ( hval + "px"));
+                    $(".one").css("height", ( acceleration + "px"));
                
             });
             
