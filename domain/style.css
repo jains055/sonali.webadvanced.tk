@@ -8,14 +8,14 @@ html, body {
 }
 
 .one{
-    width: 100000%;
+    width: 1000000%;
 	height: 10px;
 	background: pink;
 
 }
 
 .two{
-    width: 100000%;
+    width: 1000000%;
 	height: 10px;
 	background: white;
 	
@@ -23,7 +23,7 @@ html, body {
 
 #cube{
 	transform-origin: center;
-	white-space:nowrap; 
+	
 }
 
 #color-preview {
