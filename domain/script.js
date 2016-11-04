@@ -47,7 +47,9 @@
                
                var acceleration = Math.round(event.acceleration.x);
                 console.log(acceleration);
-                    $(".one").css("height", ( acceleration + "px"));
+                var valh = acceleration*3
+                console.log(valh);
+                    $(".two").css("height", ( valh + "px"));
                
             });
             
