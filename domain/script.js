@@ -45,7 +45,7 @@
       */          
                 // $(".two").css("background-color","rgb(" + accelerationIncludingGravity.x + "," + event.accelerationIncludingGravity.y + "," + accelerationIncludingGravity.z + ")");
                
-               var acceleration = acceleration.x;
+               var acceleration = Math.round(event.acceleration.x);
                 console.log(acceleration);
                var hval = acceleration/2
                console.log(hval);
