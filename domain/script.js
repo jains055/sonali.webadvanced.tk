@@ -1,7 +1,7 @@
 
               //creating multiple lines  
                 
-                for (var i = 0; i <120; i++) {
+                for (var i = 0; i <160; i++) {
                  $(".cube").append("<div class='one'></div>");
                  $(".cube").append("<div class='two'></div>");
                  console.log(4);
