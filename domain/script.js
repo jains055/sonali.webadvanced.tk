@@ -46,6 +46,7 @@
                 // $(".two").css("background-color","rgb(" + accelerationIncludingGravity.x + "," + event.accelerationIncludingGravity.y + "," + accelerationIncludingGravity.z + ")");
                
                var acceleration = DeviceMotionEvent.accelerationIncludingGravity;
+                console.log(acceleration);
                var hval = acceleration/2
                console.log(hval);
                     
