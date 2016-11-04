@@ -21,9 +21,7 @@ html, body {
 	
 }
 
-#cube{
-	transform-origin: center;
-}
+
 
 #color-preview {
     position: absolute;
