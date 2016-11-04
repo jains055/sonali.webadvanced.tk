@@ -98,6 +98,58 @@ if (window.DeviceOrientationEvent) {
        
        $(".one").css("background-color", hslString);
        
+       // second color
+
+ window.addEventListener('devicemotion', function(event) {
+                
+                var a = event.alpha;
+       var b = event.beta;
+       var g = event.gamma;
+       var hue = 0, saturation = 0, lightness = 0, red, blue, green;
+
+       // use -20 to +20 degrees angle for calculating saturation 
+       // value according to beta angle
+       b += 20;
+       if (b < 0) saturation = 0;
+       else if (b > 40) saturation = 100;
+       else {
+         saturation = 100 / 40 * b;
+       }
+
+       // use -20 to +20 degrees angle for calculating lightness 
+       // value according to gamma angle
+       g += 20;
+       if (g < 0) lightness = 0;
+       else if (g > 40) lightness = 100;
+       else {
+         lightness = 100 / 40 * g;
+       }
+
+       // use the whole 360 degree angle for calculating 
+       // red value according to alpha angle
+       a = Math.abs(a);
+       hue = a;
+
+       hue = Math.round(hue);
+       saturation = Math.round(saturation);
+       lightness = Math.round(lightness);
+
+       var hslString2 = "hsl(" + hue + ", " + saturation + "%, " + lightness + "%)";
+       var rgb = hslToRgb(hue / 360, saturation / 100, lightness / 100);
+       red = rgb[0];
+       green = rgb[1];
+       blue = rgb[2];
+
+       var rgbStringInverted = "rgb(" + (255 - red) + ", " + (255 - green) + ", " + (255 - blue) + ")";
+       var hexString = "#" + rgbToHex(red, green, blue);
+
+       //document.getElementById("color-preview").style.backgroundColor = hslString;
+       
+       $(".two").css("background-color", hslString2);
+       
+                
+            });
+            
   });
   
 }
