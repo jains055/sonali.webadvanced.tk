@@ -23,6 +23,7 @@ html, body {
 
 #cube{
 	transform-origin: center;
+	white-space:nowrap; 
 }
 
 #color-preview {
