@@ -22,6 +22,7 @@
         //line 1 width based on alpha
         var alpha = event.alpha/10;
         $(".one").css("height", ( alpha + "px"));
+        $(".one").css("width", ( alpha + "%"));
    
         //line 2 width based on beta
         var beta = (Math.abs(event.beta))/2;
