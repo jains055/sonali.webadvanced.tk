@@ -63,7 +63,8 @@ html, body {
     height: 70%;
     margin: 0 auto;
     left:30px;
-    background-color: white;
+    background-color: black;
+    color: white;
     position: absolute;
     text-align: center;
    font-family: helvetica;
