@@ -19,20 +19,27 @@
             'rotateY(' + event.gamma + 'deg) ' +
             'rotateZ(' + event.alpha + 'deg)';
             
-        //line 1 width based on alpha
+        //line one w & h based on alpha
         var alpha = event.alpha/10;
         $(".one").css("height", ( alpha + "px"));
         $(".one").css("width", ( (100-alpha) + "%"));
    
-        //line 2 width based on beta
+        //line two w & h based on beta
         var beta = (Math.abs(event.beta))/2;
         $(".two").css("height", ( beta + "px"));
         $(".two").css("width", ( (100-beta) + "%"));
      
-        //line 3 width based on gamma
+        //line three w & h based on gamma
         var gamma = Math.abs(event.gamma);
         $(".three").css("height", ( gamma + "px"));
         $(".three").css("width", ( (100-gamma) + "%"));
+        
+        //color for line two
+        
+        var r = event.alpha - 105
+        var g = (Math.abs(event.beta)) + 75;
+        var b = (Math.abs(event.gamma)) + 165;
+        $(".two").css("background", ("rgb:"+ r + "," + g + "," + b));
         
     });
     
