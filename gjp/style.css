@@ -45,12 +45,12 @@ html, body {
 }
 
 .button{
-    width: 20px;
-	height: 20px;
+    width: 16px;
+	height: 16px;
 	background: black;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
 	position: absolute;
 	top:30px;
 	right:30px;
@@ -63,8 +63,11 @@ html, body {
     height: 70%;
     margin-right: auto;
     margin-left:auto;
-    background-color: red;
+    background-color: white;
     position: absolute;
+    text-align: center;
+   font-family: helvetica;
+   font-size: 12px;
     
 }
 
