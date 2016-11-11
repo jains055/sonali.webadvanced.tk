@@ -22,17 +22,17 @@
         //line one w & h based on alpha
         var alpha = event.alpha/10;
         $(".one").css("height", ( alpha + "px"));
-        //$(".one").css("width", ( (100-alpha) + "%"));
+        $(".one").css("width", ( (100-alpha) + "%"));
    
         //line two w & h based on beta
         var beta = (Math.abs(event.beta))/2;
         $(".two").css("height", ( beta + "px"));
-        //$(".two").css("width", ( (100-beta) + "%"));
+        $(".two").css("width", ( (100-beta) + "%"));
      
         //line three w & h based on gamma
         var gamma = Math.abs(event.gamma)*2;
         $(".three").css("height", ( gamma + "px"));
-        //$(".three").css("width", ( (100-gamma) + "%"));
+        $(".three").css("width", ( (100-gamma) + "%"));
         
             //color for line three
             // var color = "#" + Math.floor(Math.random()*16777215).toString(16);
