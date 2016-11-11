@@ -39,7 +39,7 @@
         var r = Math.abs(event.alpha - 105)
         var g = (Math.abs(event.beta)) + 75;
         var b = (Math.abs(event.gamma)) + 165;
-        $(".two").css("background", ("rgb:"+ r + "," + g + "," + b));
+        $(".two").css("background-color", "rgb("+ r +","+ g +","+ b +")" );
         
         console.log(r)
         console.log(g)
