@@ -22,7 +22,7 @@
         //line one w & h based on alpha
         var alpha = event.alpha/10;
         $(".one").css("height", ( alpha + "px"));
-        $(".one").css("width", ( (150-alpha) + "%"));
+        $(".one").css("width", ( (200-alpha) + "%"));
    
         //line two w & h based on beta
         var beta = (Math.abs(event.beta))/2;
