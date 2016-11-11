@@ -20,7 +20,7 @@
             'rotateZ(' + event.alpha + 'deg)';
             
         //line 1 width based on alpha
-        var alpha = (event.alpha)/50;
+        var alpha = (event.alpha)/10;
         $(".one").css("height", ( alpha + "px"));
         
         
