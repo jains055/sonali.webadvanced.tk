@@ -97,6 +97,9 @@
                     var palette=$ui.color.triadic(hexString);
                       console.log(palette);
                                
+                               $(".two").css("background-color", (palette[1]));
+                               $(".three").css("background-color", (palette[2]));
+                               
                               });
                               
                             }
