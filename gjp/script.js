@@ -25,12 +25,7 @@
         var beta = Math.abs(event.beta)/2;
         $(".two").css("height", ( alpha + "px"));
         
-        
-        
-    });
-    
-       
-        window.addEventListener('devicemotion', function(event) {
+            window.addEventListener('devicemotion', function(event) {
                 
                 //line 1 width based on alpha 
                 
@@ -38,7 +33,13 @@
                 var alpha = (event.alpha)/intervalone;
                 $(".one").css("height", ( alpha + "px"));
                 console.log(intervalone)
-        });
+                
+            });
     
+        
+    });
+    
+       
+      
 
                 
