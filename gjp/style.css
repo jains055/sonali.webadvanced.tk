@@ -3,11 +3,6 @@ html, body {
 	
 }
 
-body{
-    border: 3px solid white;
-    z-index: 10
-}
-
 * {
   margin: 2px;
   padding: 2px;
