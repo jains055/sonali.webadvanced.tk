@@ -36,10 +36,10 @@
         
             //color for line three
             var color = "#" + Math.floor(Math.random()*16777215).toString(16);
-            //gi$(".three").css("background-color", color );
+            $(".three").css("background-color", color );
         
                 //color for line two
-                var r = Math.round(Math.abs(event.alpha - 105))
+                var r = Math.round(Math.abs(event.alpha - 105));
                 var g = Math.round((Math.abs(event.beta)) + 75);
                 var b = Math.round((Math.abs(event.gamma)) + 165);
                 $(".two").css("background-color", "rgb("+ r +","+ g +","+ b +")" );
