@@ -2,7 +2,7 @@
     document.ontouchmove = function(e){ e.preventDefault(); }
 
     //append multiple lines
-    for (var i = 0; i <10; i++) {
+    for (var i = 0; i <13; i++) {
         $(".lines").append("<div class='one'></div>");
         $(".lines").append("<div class='space1'></div>");
         $(".lines").append("<div class='two'></div>");
