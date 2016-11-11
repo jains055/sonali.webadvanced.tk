@@ -36,7 +36,7 @@
         
         //color for line two
         
-        var r = event.alpha - 105
+        var r = Math.abs(event.alpha - 105)
         var g = (Math.abs(event.beta)) + 75;
         var b = (Math.abs(event.gamma)) + 165;
         $(".two").css("background", ("rgb:"+ r + "," + g + "," + b));
