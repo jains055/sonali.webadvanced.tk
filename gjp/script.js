@@ -19,27 +19,26 @@
             'rotateY(' + event.gamma + 'deg) ' +
             'rotateZ(' + event.alpha + 'deg)';
             
-      
+        //line 1 width based on alpha
+        var alpha = (event.alpha);
+       
+         window.addEventListener('devicemotion', function(event) {
+                
+                //line 1 width based on alpha 
+                
+                var intervalone = alpha/((event.interval)*100)
+                $(".one").css("height", ( intervalone + "px"));
+                console.log(intervalone)
+        });
         
         //line 2 width based on beta
         var beta = Math.abs(event.beta)/2;
         $(".two").css("height", ( alpha + "px"));
         
-            window.addEventListener('devicemotion', function(event) {
-                
-                //line 1 width based on alpha 
-                
-                var intervalone = (event.interval)*100
-                var alpha = (event.alpha)/intervalone;
-                $(".one").css("height", ( alpha + "px"));
-                console.log(intervalone)
-                
-            });
-    
+        
         
     });
     
-       
-      
+    
 
                 
