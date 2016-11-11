@@ -90,16 +90,20 @@
                                var rgbStringInverted = "rgb(" + (255 - red) + ", " + (255 - green) + ", " + (255 - blue) + ")";
                                var hexString = "#" + rgbToHex(red, green, blue);
                                
-                                $(".one").css("background-color", hslString);
+                                //$(".one").css("background-color", hslString);
                                 
                                 //getting other colors using colorflow
                     
-                    var palette=$ui.color.triadic(hexString);
+                    //var palette=$ui.color.triadic(hexString);
+                    
+                    var palette=$ui.color.complement(hexString, 'split');
                       
+                      var one = palette[0];
                       var two = palette[1];
                       console.log(two);
                       var three = palette[2];
-                               
+                             
+                             $(".one").css("background-color", one);  
                              $(".two").css("background-color", two);
                              $(".three").css("background-color", three);
                                
