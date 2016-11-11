@@ -36,7 +36,7 @@
         
             //color for line three
             var color = "#" + Math.floor(Math.random()*16777215).toString(16);
-            $(".two").css("background-color", color );
+            $(".three").css("background-color", color );
         
                 //color for line two
                 var r = Math.round(Math.abs(event.alpha - 105))
