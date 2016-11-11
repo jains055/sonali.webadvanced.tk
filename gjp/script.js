@@ -14,6 +14,11 @@
     
     
      window.addEventListener('deviceorientation', function(event) {
+         
+         //button info
+          $('.button').click(function(){
+             $('.info').toggleClass('none'); 
+         });
         
         //enable rotation
         document.getElementById('lines').style.webkitTransform =
