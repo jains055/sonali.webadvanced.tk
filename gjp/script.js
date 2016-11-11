@@ -4,8 +4,11 @@
     //append multiple lines
     for (var i = 0; i <10; i++) {
         $(".lines").append("<div class='one'></div>");
+        $(".lines").append("<div class='space1'></div>");
         $(".lines").append("<div class='two'></div>");
+        $(".lines").append("<div class='space2'></div>");
         $(".lines").append("<div class='three'></div>");
+        $(".lines").append("<div class='space3'></div>");
         console.log(3);
     }
     
