@@ -95,10 +95,13 @@
                                 //getting other colors using colorflow
                     
                     var palette=$ui.color.triadic(hexString);
-                      console.log(palette);
+                      
+                      var two = palette[1];
+                      console.log(two);
+                      var three = palette[2];
                                
-                               $(".two").css("background-color", (palette[1]));
-                               $(".three").css("background-color", (palette[2]));
+                             $(".two").css("background-color", two);
+                             $(".three").css("background-color", three);
                                
                               });
                               
