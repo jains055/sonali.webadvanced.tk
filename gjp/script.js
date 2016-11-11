@@ -105,9 +105,9 @@
                       console.log(two);
                       var three = palette[2];
                              
-                             $(".one").css("background-color", one);  
+                             $(".three").css("background-color", one);  
                              $(".two").css("background-color", two);
-                             $(".three").css("background-color", three);
+                             $(".one").css("background-color", three);
                                
                               });
                               
