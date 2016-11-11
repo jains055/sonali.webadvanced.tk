@@ -37,7 +37,7 @@
                 var intervalone = (event.interval)*100
                 var alpha = (event.alpha)/intervalone;
                 $(".one").css("height", ( alpha + "px"));
-                
+                console.log(intervalone)
         });
     
 
