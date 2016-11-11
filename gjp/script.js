@@ -67,9 +67,9 @@
                                // value according to gamma angle
                                gamma += 20;
                                if (gamma < 0) lightness = 0;
-                               else if (gamma > 40) lightness = 50;
+                               else if (gamma > 40) lightness = 100;
                                else {
-                                 lightness = 50 / 40 * gamma;
+                                 lightness = 100 / 40 * gamma;
                                }
                         
                                // use the whole 360 degree angle for calculating 
