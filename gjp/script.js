@@ -19,9 +19,7 @@
             'rotateY(' + event.gamma + 'deg) ' +
             'rotateZ(' + event.alpha + 'deg)';
             
-        //line 1 width based on alpha
-        var alpha = (event.alpha)/10;
-        $(".one").css("height", ( alpha + "px"));
+      
         
         //line 2 width based on beta
         var beta = Math.abs(event.beta)/2;
@@ -34,9 +32,12 @@
        
         window.addEventListener('devicemotion', function(event) {
                 
-                //interval values
-                var interval = event.interval
-                console.log(interval);
+                //line 1 width based on alpha 
+                
+                var intervalone = (event.interval)*100
+                var alpha = (event.alpha)/intervalone;
+                $(".one").css("height", ( alpha + "px"));
+                
         });
     
 
