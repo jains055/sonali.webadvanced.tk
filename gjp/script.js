@@ -89,12 +89,8 @@
                         
                                var rgbStringInverted = "rgb(" + (255 - red) + ", " + (255 - green) + ", " + (255 - blue) + ")";
                                var hexString = "#" + rgbToHex(red, green, blue);
-                        
-                               document.getElementById("color-preview").style.backgroundColor = hslString;
-                               document.getElementById("headline").style.color = rgbStringInverted;
-                               document.getElementById("headline").innerHTML = hslString + "<br />" + hexString;
                                
-                               $(".one").css("background-color", hslString);
+                                $(".one").css("background-color", hslString);
                                
                           });
                           
@@ -147,6 +143,8 @@
                           var hex = c.toString(16);
                           return hex.length == 1 ? "0" + hex : hex;
                         }
+                        
+                      
     });
     
        
