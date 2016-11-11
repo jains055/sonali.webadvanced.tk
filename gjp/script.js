@@ -20,7 +20,7 @@
             'rotateZ(' + event.alpha + 'deg)';
             
         //line one w & h based on alpha
-        var alpha = event.alpha/10;
+        var alpha = event.alpha/20;
         $(".one").css("height", ( alpha + "px"));
         $(".two").css("width", ( (100-alpha) + "%"));
    
