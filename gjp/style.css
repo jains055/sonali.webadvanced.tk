@@ -9,24 +9,25 @@ html, body {
 }
 
 .one{
-    width: 100%;
+    width: 70%;
 	height: 10px;
 	background-color: pink;
 }
 
 .two{
-    width: 100%;
+    width: 70%;
 	height: 10px;
 	background-color: white;
 }
 
 .three{
-    width: 100%;
+    width: 70%;
 	height: 10px;
 	background-color: black;
 }
 
 #lines{
     transform-origin: center;
-	width: 500%;
+	width: 70%;
+	height: 70%
 }
