@@ -28,10 +28,16 @@
         $(".two").css("height", ( alpha + "px"));
         
         
-        var interval = event.interval
-        console.log(interval);
+        
     });
     
+       
+        window.addEventListener('devicemotion', function(event) {
+                
+                //interval values
+                var interval = event.interval
+                console.log(interval);
+        });
     
 
                 
