@@ -20,17 +20,17 @@
             'rotateZ(' + event.alpha + 'deg)';
             
         //line 1 width based on alpha
-        var alpha = (event.alpha)/10;
+        var alpha = event.alpha/10;
         $(".one").css("height", ( alpha + "px"));
         console.log(alpha)
         
         //line 2 width based on beta
-        var beta = Math.abs(event.beta)/2;
+        var beta = (Math.abs(event.beta))/2;
         $(".two").css("height", ( beta + "px"));
         console.log(beta)
         
         //line 3 width based on gamma
-        var gamma = Math.abs(event.gamma)/2;
+        var gamma = (Math.abs(event.gamma))/2;
         $(".three").css("height", ( gamma + "px"));
         console.log(gamma)
         
