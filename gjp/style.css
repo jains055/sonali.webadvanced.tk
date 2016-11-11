@@ -12,6 +12,7 @@ html, body {
     width: 100%;
 	height: 10px;
 	background: pink;
+	transform-origin: center;
 
 }
 
@@ -19,6 +20,7 @@ html, body {
     width: 100%;
 	height: 10px;
 	background: white;
+		transform-origin: center;
 	
 }
 
@@ -26,6 +28,7 @@ html, body {
     width: 100%;
 	height: 10px;
 	background: black;
+		transform-origin: center;
 	
 }
 
