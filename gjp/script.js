@@ -1,3 +1,6 @@
+document.ontouchmove = function(e){ e.preventDefault(); }
+
+
 for (var i = 0; i <34; i++) {
                  $(".lines").append("<div class='one'></div>");
                  $(".lines").append("<div class='two'></div>");
