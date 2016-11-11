@@ -13,8 +13,8 @@
     
      window.addEventListener('deviceorientation', function(event) {
         
-        document.getElementsByClassName("one").style.webkitTransform =
-        document.getElementsByClassName("one").style.transform =
+        document.getElementById('lines').style.webkitTransform =
+        document.getElementById('lines').style.transform =
             'rotateX(' + event.beta + 'deg) ' +
             'rotateY(' + event.gamma + 'deg) ' +
             'rotateZ(' + event.alpha + 'deg)';
