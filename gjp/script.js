@@ -25,8 +25,11 @@
         
         //line 2 width based on beta
         var beta = Math.abs(event.beta)/2;
-        $(".one").css("height", ( alpha + "px"));
+        $(".two").css("height", ( alpha + "px"));
         
+        
+        var interval = event.interval
+        console.log(interval);
     });
     
     
