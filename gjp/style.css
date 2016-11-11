@@ -52,8 +52,8 @@ html, body {
 	-webkit-border-radius: 8px;
 	border-radius: 8px;
 	position: absolute;
-	top:30px;
-	right:30px;
+	top:20px;
+	right:20px;
 	z-index: 20
 }
 
