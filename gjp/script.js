@@ -9,17 +9,23 @@
         console.log(3);
     }
     
-    //enable rotation
     
      window.addEventListener('deviceorientation', function(event) {
         
+        //enable rotation
         document.getElementById('lines').style.webkitTransform =
         document.getElementById('lines').style.transform =
             'rotateX(' + event.beta + 'deg) ' +
             'rotateY(' + event.gamma + 'deg) ' +
             'rotateZ(' + event.alpha + 'deg)';
-                       
+            
+        //line 1 width based on alpha
+        var alpha = (event.alpha)/50;
+        $(".one").css("height", ( alpha + "px"));
+        
+        
     });
+    
     
 
                 
