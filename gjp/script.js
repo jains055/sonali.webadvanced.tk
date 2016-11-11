@@ -34,16 +34,62 @@
         $(".three").css("height", ( gamma + "px"));
         $(".three").css("width", ( (100-gamma) + "%"));
         
-        //color for line two
+            //color for line three
+            var color = "#" + Math.floor(Math.random()*16777215).toString(16);
+            $(".two").css("background-color", color );
         
-        var r = Math.round(Math.abs(event.alpha - 105))
-        var g = Math.round((Math.abs(event.beta)) + 75);
-        var b = Math.round((Math.abs(event.gamma)) + 165);
-        $(".two").css("background-color", "rgb("+ r +","+ g +","+ b +")" );
+                //color for line two
+                var r = Math.round(Math.abs(event.alpha - 105))
+                var g = Math.round((Math.abs(event.beta)) + 75);
+                var b = Math.round((Math.abs(event.gamma)) + 165);
+                $(".two").css("background-color", "rgb("+ r +","+ g +","+ b +")" );
         
-        console.log(r)
-        console.log(g)
-        console.log(b)
+                       //color for line one
+                       var alpha = event.alpha;
+                       var beta = event.beta;
+                       var gamma = event.gamma;
+                       var hue = 0, saturation = 0, lightness = 0, red, blue, green;
+                
+                       // use -20 to +20 degrees angle for calculating saturation 
+                       // value according to beta angle
+                       beta += 20;
+                       if (beta < 0) saturation = 0;
+                       else if (beta > 40) saturation = 100;
+                       else {
+                         saturation = 100 / 40 * beta;
+                       }
+                
+                       // use -20 to +20 degrees angle for calculating lightness 
+                       // value according to gamma angle
+                       gamma += 20;
+                       if (gamma < 0) lightness = 0;
+                       else if (gamma > 40) lightness = 100;
+                       else {
+                         lightness = 100 / 40 * gamma;
+                       }
+                
+                       // use the whole 360 degree angle for calculating 
+                       // red value according to alpha angle
+                       alpha = Math.abs(alpha);
+                       hue = alpha;
+                
+                       hue = Math.round(hue);
+                       saturation = Math.round(saturation);
+                       lightness = Math.round(lightness);
+                
+                       var hslString = "hsl(" + hue + ", " + saturation + "%, " + lightness + "%)";
+                       var rgb = hslToRgb(hue / 360, saturation / 100, lightness / 100);
+                       red = rgb[0];
+                       green = rgb[1];
+                       blue = rgb[2];
+                
+                       var rgbStringInverted = "rgb(" + (255 - red) + ", " + (255 - green) + ", " + (255 - blue) + ")";
+                       var hexString = "#" + rgbToHex(red, green, blue);
+                
+                       //document.getElementById("color-preview").style.backgroundColor = hslString;
+                       
+                       $(".one").css("background-color", hslString);
+        
     });
     
        
