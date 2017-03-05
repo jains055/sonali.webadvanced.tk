@@ -1,0 +1,77 @@
+.a,.b,.c,.d,.e,.f,.g{
+    font-family: arial black, arial;
+    display: none;
+     width: 400px;
+    height: 400px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    font-size:20px;
+}
+
+.info{
+    display: none;
+    color: gray;
+    font-family:arial;
+    letter-spacing:1px;
+    font-size:14px;
+   padding: 20px;
+    text-align: right;
+}
+
+.title{
+    color: gray;
+    font-family:arial;
+    letter-spacing:1px;
+    font-size:14px;
+    padding-top:16px;
+    padding-right:16px;
+    text-align: right;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+input[type=button] {
+    color: white;
+    font-family:arial;
+    letter-spacing:1px;
+    font-size:16px;
+    padding:17px;
+    background-color:black;
+    border:none;
+    cursor:pointer;
+}
+
+input[type=text] {
+    color: black;
+    font:arial black;
+    font-size:17px;
+    padding:0px;
+    background-color:none;
+    border:none;
+    cursor:pointer;
+    outline:none;
+    text-align: center;
+    
+}
+
+
+.user{
+     font-family: arial black, arial;
+     width: 200px;
+    height: 200px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+
+}
